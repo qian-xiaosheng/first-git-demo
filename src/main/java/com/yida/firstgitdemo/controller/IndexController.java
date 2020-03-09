@@ -9,6 +9,6 @@ public class IndexController {
 
     @GetMapping("/index")
     public String index(Model model) {
-        return "hello world123456";
+        return "hello world";
     }
 }
